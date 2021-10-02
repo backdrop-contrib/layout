@@ -1,0 +1,42 @@
+type = layout
+name = Foo Layout Template
+description = Template project for a Backdrop layout template.
+backdrop = 1.x
+
+; Preview image for this layout template.
+preview = simmons.png
+
+; Specify regions for this layout.
+regions[header]     = Header
+regions[top]        = Top
+regions[content]    = Content
+regions[sidebar]    = First Sidebar
+regions[sidebar2]   = Second Sidebar
+regions[bottom]     = Bottom
+regions[footer]     = Footer
+
+; The default region automatically receives the "Main Content" block if needed.
+default region = content
+
+; (Optional) Include the Bootstrap4 Grid System
+libraries[] = bootstrap4-gs
+
+; (Optional) Default stylesheets for this layout template.
+; stylesheets[all][] = layout.css
+
+; Include file for special preprocessing of variables.
+file = layout.php
+
+
+
+
+
+
+
+
+
+
+
+
+
+
